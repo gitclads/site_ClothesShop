@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+}
+
+h2  { 
+    background-color: #626E6A;
+    color: #f8f8f8;
+    text-align: center;
+}
+
+header,
+footer {
+    padding: 16px 0;
+    background-color: #626E6A;
+    color: #f8f8f8;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img,
+.publi img{
+    width: 100%;
+}
+
+.articles article {
+    width: 20%;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+section #contact {
+    display: block;
+}
+
+.articles img {
+    cursor: pointer;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    background-color:#626e6aef;
+    padding: 50px;
+   
+}
+
+.contact-methods h3 {
+    color: #f8f8f8;
+    font-size: 23px;
+    font-weight: bolder;
+    margin-bottom: 16px;
+
+    
+}
+
+.contact-methods p {
+    color: #f8f8f8;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form button {
+    background-color: #f8f8f8;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b5d1bf;
+}
+
+input:focus, textarea:focus {
+    outline-color: #626E6A;
+}
